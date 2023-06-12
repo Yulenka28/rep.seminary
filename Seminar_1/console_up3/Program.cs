@@ -25,4 +25,7 @@ switch(number)
     case (7):
         Console.WriteLine("Воскресенье");
         break;
+    default:
+        Console.WriteLine("Неверно введено число");
+        break;  
 }
