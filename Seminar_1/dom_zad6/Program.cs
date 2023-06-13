@@ -1,14 +1,12 @@
 ﻿// Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 Console.WriteLine("Введите целое число: ");
-double a = double.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine());
 
-double z = a % 2;
-
-if (z > 0)
+if (a % 2 == 0)
 {
-    Console.WriteLine("Заданное число является нечетным");
+    Console.WriteLine("Заданное число является четным");
 }
 else
 {
-    Console.WriteLine("Заданное число является четным");
+    Console.WriteLine("Заданное число является нечетным");
 }
