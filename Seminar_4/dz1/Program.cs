@@ -5,5 +5,14 @@ int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
 int b = int.Parse(Console.ReadLine());
 
-double itog = Math.Pow(a, b);
+/*double itog = Math.Pow(a, b);
 Console.WriteLine(itog);
+*/
+
+int c = a;
+
+for (int i = 1; i < b; i++)
+{
+    c= c * a;
+}
+Console.WriteLine(c);
